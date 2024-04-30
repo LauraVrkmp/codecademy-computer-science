@@ -25,8 +25,9 @@ Functions to include in
 
 #### board:
 - initialize
+- load pictures
 - draw board (open/hidden)
-- update board
+- update board (adjacent clear tiles clear up as well)
 
 #### game:
 - initialize
@@ -39,7 +40,10 @@ Functions to include in
 - initialize
 - clicked or not clicked
 - flagged or not flagged
+- 
 
 ### refactoring
 
 ### blog post
+
+To be able to run the software you need to install Python and pygame and Pillow
