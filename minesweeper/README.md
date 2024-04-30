@@ -41,10 +41,10 @@ Functions to include in
 - clicked or not clicked
 - flagged or not flagged
 
-### refactoring
+## refactoring
 At first iteration of a working game, I still needed to implement a win event showing unclicked bombs and playing the win.wav. I also still need feedback for when a tile was wrongly flagged as a bomb. Lastly, I need to rely on user input for the board dimensions (number of tiles).
 
-### blog post
+## blog post
 
 To be able to run the software you need to install Python, Pillow and tkinter.
 
