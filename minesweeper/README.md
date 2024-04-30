@@ -42,7 +42,7 @@ Functions to include in
 - flagged or not flagged
 
 ## refactoring
-At first iteration of a working game, I still needed to implement a win event showing unclicked bombs and playing the win.wav. I also still need feedback for when a tile was wrongly flagged as a bomb. Lastly, I need to rely on user input for the board dimensions (number of tiles).
+At first iteration of a working game, I still needed to implement a win event showing unclicked bombs and playing the win.wav. I also still need feedback for when a tile was wrongly flagged as a bomb. Third, I need to rely on user input for the board dimensions (number of tiles). Lastly my code needs comments.
 
 ## blog post
 
