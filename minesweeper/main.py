@@ -2,10 +2,11 @@ from board import Board
 
 def main():
     size = '800x800'
-    # print('What is your prefered size?')
-    # size = input()
+    # print('What are your prefered dimensions? (tile by tile)')
+    # dimensions = input()
+    dimensions = [20, 20]
 
-    Board(size).draw()
+    Board(size, dimensions).draw()
 
 if __name__ == '__main__':
     main()

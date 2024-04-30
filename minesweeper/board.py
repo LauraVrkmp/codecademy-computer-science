@@ -4,14 +4,14 @@ import os
 from game import Game
 
 class Board:
-    def __init__(self, size):
+    def __init__(self, size, dimensions):
         self.size = size
         self.header = 'Minesweeper'
         self.window = tk.Tk()
         self.sized = self.getSize()
         self.images_path = 'images'
         self.image_names = self.get_image_names()
-        self.dimensions = [20, 20]
+        self.dimensions = dimensions
         self.probability = 0.2
         self.running = True
 
